@@ -9,7 +9,8 @@ ul {
   flex-direction: row-reverse;
 
   /* Flex Wrap - wrap children when screen is to small to fit them all properly */
-  Values: nowrap(default), wrap 
+  /* Values: nowrap(default), wrap, wrap-reverse */
+  flex-wrap: wrap;
 
 }
 
