@@ -3,6 +3,8 @@ ul {
   /* flex is used on the parent and has access to more styling options */
   /* inline-flex acts as it is inline but for a flex container */
   display: flex;
+  /* flex wrap helps for smaller screens to push the content in a cleaner look */
+  flex-wrap: wrap;
 }
 
 /* Flex Items Children */
