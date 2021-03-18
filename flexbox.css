@@ -1,0 +1,12 @@
+/* Flex Container Parent */
+ul {
+  /* flex is used on the parent and has access to more styling options */
+  /* inline-flex acts as it is inline but for a flex container */
+  display: flex;
+}
+
+/* Flex Items Children */
+li {
+  /* inline block used on children on container */
+  display: inline-block;
+}
