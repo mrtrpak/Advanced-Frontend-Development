@@ -4,9 +4,13 @@ ul {
 
   display: flex;
 
-  /* Flex Direction */
+  /* Flex Direction - direction in which the children are displayed */
   /* Values: row(default), row-reverse(default reverse), column, column-reverse */
   flex-direction: row-reverse;
+
+  /* Flex Wrap - wrap children when screen is to small to fit them all properly */
+  Values: nowrap(default), wrap 
+
 }
 
 li {
