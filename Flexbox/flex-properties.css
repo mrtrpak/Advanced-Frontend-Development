@@ -2,7 +2,7 @@
 ul {
   background-color: lightblue;
   padding: 20px;
-
+  height: 300px;
   display: flex;
 
   /* Flex Direction - direction in which the children are displayed */
@@ -17,12 +17,16 @@ ul {
   /* Values: 1st value direction 2nd value wrap */
   flex-flow: row-reverse wrap;
 
-  /* Justify Content - aligns children to specified value */
+  /* Justify Content - aligns children on main axis to specified value */
   /* Values: flex-start(default), flex-end, center, space-between, space-around, space-evenly */
   /* - space between makes sure that everything contained is even but the ends
   - space around makes each child have same space on its right and left
   - space evenly makes sure all the spacing is even between all children */
   justify-content: space-evenly;
+
+  /* Align Items - align children from the cross axis based on flex direction */
+  /* Values: stretch(default), flex-start, flex-end, center, baseline */
+  /* - baseline aligns from the base of the text axis */
 
 }
 
