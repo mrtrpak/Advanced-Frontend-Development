@@ -18,8 +18,11 @@ ul {
   flex-flow: row-reverse wrap;
 
   /* Justify Content - aligns children to specified value */
-  /* Values: flex-start(default), flex-end, center, space-between, space-around */
-  justify-content: space-around;
+  /* Values: flex-start(default), flex-end, center, space-between, space-around, space-evenly */
+  /* - space between makes sure that everything contained is even but the ends
+  - space around makes each child have same space on its right and left
+  - space evenly makes sure all the spacing is even between all children */
+  justify-content: space-evenly;
 
 }
 
