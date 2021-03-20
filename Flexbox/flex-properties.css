@@ -1,3 +1,4 @@
+/* Parent Container */
 ul {
   background-color: lightblue;
   padding: 20px;
@@ -6,14 +7,19 @@ ul {
 
   /* Flex Direction - direction in which the children are displayed */
   /* Values: row(default), row-reverse(default reverse), column, column-reverse */
-  flex-direction: row-reverse;
+  /* flex-direction: row-reverse; */
 
   /* Flex Wrap - wrap children when screen is to small to fit them all properly */
   /* Values: nowrap(default), wrap, wrap-reverse */
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
+
+  /* Flex Flow - shorthand for direction and wrap properties */
+  /* Values: 1st value direction 2nd value wrap */
+  flex-flow: row-reverse wrap;
 
 }
 
+/* Child of Container */
 li {
   list-style: none;
   color: white;
