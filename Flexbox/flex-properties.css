@@ -17,6 +17,10 @@ ul {
   /* Values: 1st value direction 2nd value wrap */
   flex-flow: row-reverse wrap;
 
+  /* Justify Content - aligns children to specified value */
+  /* Values: flex-start(default), flex-end, center, space-between, space-around */
+  justify-content: space-around;
+
 }
 
 /* Child of Container */
