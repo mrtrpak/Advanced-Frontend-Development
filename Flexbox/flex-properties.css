@@ -28,6 +28,9 @@ ul {
   /* Values: stretch(default), flex-start, flex-end, center, baseline */
   /* - baseline aligns from the base of the text axis */
 
+  /* Align Content - used to style multiple lines to keep items in a group */
+  /* Values: stretch(default), flex-start, flex-end, space-between, space-around, space-evenly */
+  align-content: space-evenly;
 }
 
 /* Child of Container */
