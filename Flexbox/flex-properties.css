@@ -44,4 +44,7 @@ li {
   padding: 10px;
   width: 100px;
   text-align: center;
+
+  /* Order - allows to reorder items in a container */
+  
 }
