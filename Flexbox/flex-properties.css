@@ -47,8 +47,17 @@ li {
 
   /* Order - allows to reorder items in a container */
   /* Values: 0(default), a positive or negative number located on the main axis */
+  /* positive is closer to flex-end while negative is closer to flex-start */
 }
 
 li:nth-child(3) {
   order: 1;
+}
+
+li:nth-child(5) {
+  order: 3;
+}
+
+li:nth-child(8) {
+  order: -3;
 }
