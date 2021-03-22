@@ -48,3 +48,7 @@ li {
   /* Order - allows to reorder items in a container */
   /* Values: 0(default), a positive or negative number located on the main axis */
 }
+
+li:nth-child(3) {
+  order: 1;
+}
