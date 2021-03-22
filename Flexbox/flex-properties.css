@@ -46,5 +46,5 @@ li {
   text-align: center;
 
   /* Order - allows to reorder items in a container */
-  
+  /* Values: 0(default), a positive or negative number located on the main axis */
 }
