@@ -48,6 +48,10 @@ li {
   /* Order - allows to reorder items in a container */
   /* Values: 0(default), a positive or negative number located on the main axis */
   /* positive is closer to flex-end while negative is closer to flex-start */
+
+  /* Flex Grow */
+
+  
 }
 
 li:nth-child(3) {
