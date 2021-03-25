@@ -55,7 +55,8 @@ li {
   /* Flex Shrink - shrinks the items to fit the screen is on by default */
   /* Values: 1(default) 0(OFF) */
 
-  /* Flex Basis */
+  /* Flex Basis - initialize the size of the item */
+  /* Values: auto(default) positive integer in pixels rem etc */
 
   /* Flex Shorthand */
 
@@ -76,4 +77,12 @@ li:nth-child(8) {
 
 li:nth-child(6) {
   flex-grow: 1;
+}
+
+li:nth-child(4) {
+  flex-shrink: 0;
+}
+
+li:nth-child(7) {
+  flex-basis: 10rem;
 }
