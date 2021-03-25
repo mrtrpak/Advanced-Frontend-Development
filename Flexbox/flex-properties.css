@@ -61,9 +61,8 @@ li {
   /* Flex Shorthand - combination of flex-grow, flex-shrink, flex-basis */
   /* EX: flex: 0 1 20rem; */
 
-  /* Align Self */
-  /* Values: auto(default) aligns according to parent's align-items value, flex-start, flex-end, center, baseline */
-  values: 
+  /* Align Self - align an item individually from the rest of the group */
+  /* Values: auto(default) aligns according to parent's align-items value, stretch, flex-start, flex-end, center, baseline */
 }
 
 li:nth-child(3) {
@@ -92,4 +91,5 @@ li:nth-child(7) {
 
 li:first-child {
   flex: 0 1 auto;
+  /* align-self: stretch; */
 }
