@@ -52,7 +52,8 @@ li {
   /* Flex Grow - takes up the the extra white space that is available */
   /* Values: 0(default) any positive number */
 
-  /* Flex Shrink */
+  /* Flex Shrink shrinks the items to fit the screen is on by default */
+  /* Values: 1(default) */
 
   /* Flex Basis */
 
