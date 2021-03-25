@@ -58,9 +58,12 @@ li {
   /* Flex Basis - initialize the size of the item */
   /* Values: auto(default) positive integer in pixels rem etc */
 
-  /* Flex Shorthand */
+  /* Flex Shorthand - combination of flex-grow, flex-shrink, flex-basis */
+  /* EX: flex: 0 1 20rem; */
 
-  
+  /* Align Self */
+  /* Values: auto(default) aligns according to parent's align-items value, flex-start, flex-end, center, baseline */
+  values: 
 }
 
 li:nth-child(3) {
@@ -85,4 +88,8 @@ li:nth-child(4) {
 
 li:nth-child(7) {
   flex-basis: 10rem;
+}
+
+li:first-child {
+  flex: 0 1 auto;
 }
