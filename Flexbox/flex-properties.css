@@ -49,7 +49,8 @@ li {
   /* Values: 0(default), a positive or negative number located on the main axis */
   /* positive is closer to flex-end while negative is closer to flex-start */
 
-  /* Flex Grow */
+  /* Flex Grow - takes up the the extra white space that is available */
+  /* Values: 0(default) any positive number */
 
   /* Flex Shrink */
 
@@ -70,4 +71,8 @@ li:nth-child(5) {
 
 li:nth-child(8) {
   order: -3;
+}
+
+li:nth-child(6) {
+  flex-grow: 1;
 }
