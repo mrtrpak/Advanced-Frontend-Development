@@ -8,4 +8,6 @@ To push my skills and abilities when creating dynamic, responsive and seamless u
 
 - CSS Flexbox and properties
 - Fundamentals of UI Design
+  - alignment
+  - use of white space
 - Fundamentals of Responsive Web Design
