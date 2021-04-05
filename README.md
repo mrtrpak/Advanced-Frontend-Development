@@ -11,3 +11,4 @@ To push my skills and abilities when creating dynamic, responsive and seamless u
   - alignment
   - use of white space
 - Fundamentals of Responsive Web Design
+
