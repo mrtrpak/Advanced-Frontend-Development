@@ -13,3 +13,14 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.section {
+  width: 400px;
+  background-color: rgb(166, 248, 159);
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
