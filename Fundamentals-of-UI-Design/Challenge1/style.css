@@ -19,8 +19,17 @@ body {
   background-color: rgb(166, 248, 159);
 }
 
+.section .content p:first-of-type {
+  text-align: center;
+  color: aqua;
+}
+
 img {
   width: 300px;
   height: 300px;
   object-fit: cover;
+}
+
+.section .content h3 {
+  text-align: right;
 }
