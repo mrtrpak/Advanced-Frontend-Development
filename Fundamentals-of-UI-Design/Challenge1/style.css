@@ -7,6 +7,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(255, 252, 222);
   height: 100vh;
+  padding: 30px;
 
   /* initiating flexbox and center aligning */
   display: flex;
@@ -24,7 +25,7 @@ body {
 .section .content p:first-of-type {
   text-align: center;
   color: tan;
-  padding: 10px;
+  padding: 5px;
 }
 
 img {
