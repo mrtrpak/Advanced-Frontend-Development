@@ -7,3 +7,15 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(61, 70, 78);
 }
+
+.section {
+  background-color: rgb(7, 55, 119);
+  display: flex;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
