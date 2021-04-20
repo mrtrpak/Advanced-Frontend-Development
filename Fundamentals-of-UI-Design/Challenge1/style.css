@@ -16,18 +16,22 @@ body {
 
 .section {
   width: 400px;
+  padding: 30px;
+  margin: 30px;
   background-color: rgb(166, 248, 159);
 }
 
 .section .content p:first-of-type {
   text-align: center;
-  color: aqua;
+  color: tan;
+  padding: 10px;
 }
 
 img {
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   object-fit: cover;
+  text-align: center;
 }
 
 .section .content h3 {
