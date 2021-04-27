@@ -10,5 +10,8 @@ To push my skills and abilities when creating dynamic, responsive and seamless u
 - Fundamentals of UI Design
   - alignment
   - use of white space
+  - contrast & scale
+  - typography
+  - color
 - Fundamentals of Responsive Web Design
 
