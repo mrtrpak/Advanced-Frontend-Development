@@ -13,5 +13,7 @@ To push my skills and abilities when creating dynamic, responsive and seamless u
   - contrast & scale
   - typography
   - color
+  - visual heirarchy
 - Fundamentals of Responsive Web Design
+- Scarlett Portfolio Website
 
