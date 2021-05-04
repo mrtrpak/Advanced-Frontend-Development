@@ -45,3 +45,7 @@ img {
   flex-direction: column;
   justify-content: space-evenly;
 }
+
+p:not(:first-of-type) {
+  color: orange;
+}
