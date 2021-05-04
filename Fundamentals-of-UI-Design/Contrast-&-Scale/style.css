@@ -52,7 +52,7 @@ img {
 }
 
 p:not(:first-of-type) {
-  color: orange;
+  color: aliceblue;
 }
 
 .section .content h3 {
