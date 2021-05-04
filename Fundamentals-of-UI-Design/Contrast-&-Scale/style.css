@@ -22,6 +22,11 @@ body {
   justify-content: space-evenly;
   margin-bottom: 30px;
   border-radius: 10px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.section:hover {
+  transform: scale(1.1);
 }
 
 img {
