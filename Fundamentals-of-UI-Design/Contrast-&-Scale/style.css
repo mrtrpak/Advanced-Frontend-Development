@@ -49,3 +49,7 @@ img {
 p:not(:first-of-type) {
   color: orange;
 }
+
+.section .content h3 {
+  font-size: larger;
+}
