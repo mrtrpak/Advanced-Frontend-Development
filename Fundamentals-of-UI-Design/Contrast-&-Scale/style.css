@@ -8,6 +8,12 @@ body {
   background-color: rgb(61, 70, 78);
 }
 
+#main-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .section {
   background-color: rgb(107, 159, 226);
   display: flex;
