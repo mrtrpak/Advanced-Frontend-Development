@@ -2,3 +2,25 @@
   margin: 0;
   padding: 0;
 }
+
+main {
+  background-color: rgb(216, 230, 218);
+  padding: 30px;
+}
+
+main .all-content {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+main .all-content .section {
+  width: 250px;
+  background-color: rgb(83, 95, 107);
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
