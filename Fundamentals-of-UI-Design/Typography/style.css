@@ -30,11 +30,22 @@ img {
   /* to center image display must be block to use margin trick */
   display: block;
   margin: 0 auto;
-  padding: 3px;
+  padding: 10px;
 }
 
 /* child selector to only change what is within main */
 main > h1,
 main > p {
   text-align: center;
+}
+
+.section {
+  margin: 10px;
+  padding: 10px;
+  border: 3px;
+  color: white;
+}
+
+.section p:last-of-type {
+  margin-top: 10px;
 }
