@@ -27,6 +27,10 @@ img {
   height: 150px;
   object-fit: cover;
   border-radius: 50%;
+  /* to center image display must be block to use margin trick */
+  display: block;
+  margin: 0 auto;
+  padding: 3px;
 }
 
 /* child selector to only change what is within main */
