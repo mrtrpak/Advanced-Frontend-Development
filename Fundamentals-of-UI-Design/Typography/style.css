@@ -29,3 +29,8 @@ img {
   border-radius: 50%;
 }
 
+/* child selector to only change what is within main */
+main > h1,
+main > p {
+  text-align: center;
+}
