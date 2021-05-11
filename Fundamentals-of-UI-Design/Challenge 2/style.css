@@ -51,3 +51,31 @@ input[type = "submit"] {
   border-radius: 2rem;
   font-size: 0.8rem;
 }
+
+/* Improvements */
+body {
+  background-color: white;
+  color: black;
+}
+
+section {
+  border-left: 0.7rem solid pi\\#ff01ff;
+}
+
+p {
+  color: #2b3337;
+}
+
+input[type = "text"], textarea {
+  background-color: white;
+  border-bottom: 1px solid gray;
+  color: 2b3337;
+}
+
+input[type = "submit"] {
+  background-color: #ff01ff;
+}
+
+input[type = "text"]:focus, textarea:focus {
+  border-bottom: #ff01ff 1px solid;
+}
