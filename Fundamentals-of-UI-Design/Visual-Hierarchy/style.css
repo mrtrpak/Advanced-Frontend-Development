@@ -15,3 +15,11 @@ section {
   background-color: lightgoldenrodyellow;
   margin: 30px 50px;
 }
+
+section:nth-child(3) {
+  background-color: aqua;
+}
+
+section:first-child {
+  align-self: flex-start;
+}
