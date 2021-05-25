@@ -8,7 +8,7 @@ body {
   align-items: center;
 }
 
-section {
+.dot {
   height: 100px;
   width: 100px;
   border-radius: 50%;
@@ -22,4 +22,8 @@ section:nth-child(3) {
 
 section:first-child {
   align-self: flex-start;
+}
+
+.newsletter {
+  margin-top: 30px;
 }
