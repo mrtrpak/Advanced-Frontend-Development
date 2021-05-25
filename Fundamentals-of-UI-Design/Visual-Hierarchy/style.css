@@ -38,3 +38,13 @@ section:first-child {
 h1 {
   font-size: 1rem;
 }
+
+form {
+  width: 500px;
+  padding: 20px;
+}
+
+label {
+  display: block;
+  padding: 10px 0;
+}
