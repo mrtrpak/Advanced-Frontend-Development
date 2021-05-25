@@ -62,3 +62,23 @@ input[type="submit"] {
   color: white;
   background: none;
 }
+
+/* Improvements */
+h1 {
+  font-size: larger;
+}
+
+form {
+  background-color: #6900f3;
+}
+
+label {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+input[type="submit"] {
+  font-size: 0.8rem;
+  background-color: #ffed8c;
+  color: #5801cb;
+}
