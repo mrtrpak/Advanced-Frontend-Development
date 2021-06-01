@@ -29,3 +29,26 @@ h1 {
 main {
   width: 30%;
 }
+
+.content {
+  background: #6c22ff;
+  margin-right: 2rem;
+  border-radius: 0.8rem;
+}
+
+h3 {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #ff69f5;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+li {
+  margin-bottom: 0.5rem;
+  font-size: 0.8rem;
+}
