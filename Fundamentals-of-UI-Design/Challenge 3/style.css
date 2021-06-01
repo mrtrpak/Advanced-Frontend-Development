@@ -52,3 +52,35 @@ li {
   margin-bottom: 0.5rem;
   font-size: 0.8rem;
 }
+
+/* Improvements */
+
+h1 {
+  margin: 2rem 2rem 2rem 0;
+  font-size: 3rem;
+}
+
+main {
+  padding: 1rem;
+}
+
+.content {
+  background-color: #0044b9;
+  padding: 1.5rem;
+}
+
+.content h3 {
+  margin: 1rem 0;
+  font-size: 1.3rem;
+}
+
+.content ul li {
+  padding: 0.2rem 0;
+  display: flex;
+
+  justify-content: space-evenly;
+}
+
+ul li span {
+  font-size: 1rem;
+}
