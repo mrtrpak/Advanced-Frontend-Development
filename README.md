@@ -15,5 +15,9 @@ To push my skills and abilities when creating dynamic, responsive and seamless u
   - color
   - visual heirarchy
 - Fundamentals of Responsive Web Design
+  - pixels
+  - max & min width
+  - viewport units
+  - media queries
 - Scarlett Portfolio Website
 
