@@ -10,6 +10,22 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+div {
+  display: flex;
+}
+
 aside {
-  
+  background: #1d3154;
+  width: 5%;
+  height: 100vh;
+}
+
+h1 {
+  margin-left: 1rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+main {
+  width: 30%;
 }
