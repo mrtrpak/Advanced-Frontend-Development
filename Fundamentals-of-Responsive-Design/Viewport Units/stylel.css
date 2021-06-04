@@ -1,0 +1,6 @@
+/* Viewport Width -- vw */
+
+img {
+  width: 50vw;
+  height: 50vh;
+}
