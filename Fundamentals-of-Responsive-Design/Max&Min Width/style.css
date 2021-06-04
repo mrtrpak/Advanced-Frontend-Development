@@ -4,4 +4,7 @@ div {
 
   /* adjusts the width to fit the screen until it reaches value */
   max-width: 600px;
+
+  /* the minimum amount that it starts at and adjusts to larger screens */
+  min-width: 200px;
 }
