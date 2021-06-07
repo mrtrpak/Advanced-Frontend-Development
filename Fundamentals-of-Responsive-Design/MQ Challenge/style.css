@@ -6,3 +6,21 @@ div {
   width: 500px;
   height: 500px;
 }
+
+@media screen and (max-width: 400px) {
+  div {
+    background-color: lawngreen;
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width: 599px) {
+  div {
+    background-color: blueviolet;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  div {
+    background-color: darkred;
+  }
+}
