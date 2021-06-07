@@ -1,3 +1,8 @@
 /* - From 0-400px background color lawn green
 - from 401-599px background color blue violet
 - 600+ px background color dark red */
+
+div {
+  width: 500px;
+  height: 500px;
+}
