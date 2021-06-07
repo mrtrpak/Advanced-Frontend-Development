@@ -2,25 +2,20 @@
 - from 401-599px background color blue violet
 - 600+ px background color dark red */
 
-div {
-  width: 500px;
-  height: 500px;
-}
-
 @media screen and (max-width: 400px) {
-  div {
+  body {
     background-color: lawngreen;
   }
 }
 
 @media screen and (min-width: 401px) and (max-width: 599px) {
-  div {
+  body {
     background-color: blueviolet;
   }
 }
 
 @media screen and (min-width: 600px) {
-  div {
+  body {
     background-color: darkred;
   }
 }
