@@ -26,3 +26,29 @@ p {
 i {
   font-size: 5rem;
 }
+
+/* Superscript Elements */
+sup {
+  font-size: 0.8rem;
+}
+
+::selection {
+  color: #fcc006;
+  background-color: #ff7052;
+}
+
+/* Main Styling */
+
+
+/* Section => container of them all */
+section#weather {
+  margin: 2rem auto 0;
+}
+
+/* Main Heading */
+h1 {
+  text-align: center;
+  font-size: 6rem;
+  letter-spacing: 0.4rem;
+  font-weight: 900;
+}
