@@ -61,4 +61,18 @@ div.weather_info_temp {
 /* Weather Info */
 div.weather_info {
   display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 5rem 0;
+}
+
+div.weather_info_date {
+  margin-right: 30rem;
+}
+
+@media screen and (max-width: 700px) {
+  div.weather_info_date {
+    margin-right: 10%;
+  }
 }
