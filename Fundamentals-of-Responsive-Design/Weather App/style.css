@@ -50,5 +50,15 @@ h1 {
   text-align: center;
   font-size: 6rem;
   letter-spacing: 0.4rem;
-  font-weight: 900;
+  font-weight: 300;
+}
+
+/* Weather Info -- Temp Container */
+div.weather_info_temp {
+  padding: 4rem;
+}
+
+/* Weather Info */
+div.weather_info {
+  display: flex;
 }
