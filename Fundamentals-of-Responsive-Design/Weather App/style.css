@@ -76,3 +76,10 @@ div.weather_info_date {
     margin-right: 10%;
   }
 }
+
+/* Temperature Info */
+div.weather_temp {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
