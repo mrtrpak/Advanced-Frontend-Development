@@ -1,5 +1,3 @@
-@media screen and (min-width: 800px) {
-  section#weather {
-    width: 90rem;
-  }
+section#weather {
+  width: 90rem;
 }
